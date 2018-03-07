@@ -1,0 +1,193 @@
+body{
+  background-color: 
+}
+
+.container,
+.container-fluid {
+    padding: 0
+}
+
+a {
+    color: #333;
+}
+
+a:hover {
+    text-decoration: none;
+     color: #e01010;
+}
+
+ul {
+    margin: 0;
+}
+
+
+
+/*导航栏*/
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(7, 17, 27, .1);
+}
+
+
+
+/*导航栏的图片超链接logo*/
+
+.navbar .navbar-header .navbar-brand {
+    padding: 5px;
+    margin-right: 50px;
+}
+
+
+
+/*导航栏的超链接*/
+
+#navbar ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: #4D555D;
+    text-align: center;
+    font-size: 16px;
+    line-height: 72px;
+    -webkit-transition: background-color .3s;
+    -moz-transition: background-color .3s;
+    transition: background-color .3s;
+}
+
+
+
+/*导航条种的表单*/
+
+#navbar form {
+    display: block;
+    color: #4D555D;
+    text-align: center;
+    font-size: 16px;
+    line-height: 72px;
+    -webkit-transition: background-color .3s;
+    -moz-transition: background-color .3s;
+    transition: background-color .3s;
+}
+
+
+
+/*导航条种的登录注册*/
+
+ul.nav-log-reg {
+    height: 92px;
+    line-height: 92px;
+}
+
+#navbar ul.nav-log-reg a {
+    display: inline;
+}
+
+
+
+
+/*轮播图下面的小圆圈*/
+
+.carousel-indicators {
+    left: auto;
+    right: 50px;
+    width: auto;
+}
+
+
+
+/*首页的图片列表*/
+
+.recommend {
+    margin-top: 10px;
+}
+
+.recommend .recommend-body ul li {
+    float: left;
+    width: 216px;
+    margin: 15px 22.5px 15px 0;
+    position: relative;
+}
+
+.recommend .recommend-body ul li:nth-child(5n) {
+    margin-right: 0;
+}
+
+.recommend .recommend-body ul li.recommend-item img.course-img {
+    width: 216px;
+    height: 120px;
+    border-radius: 8px;
+}
+
+
+.recommend .recommend-body ul li.recommend-item :hover>img.course-img {
+    box-shadow: 0 8px 16px 0 rgba(7, 17, 27, .1);
+}
+
+.recommend .recommend-body ul li.recommend-item .recommed-item-detail .course-name :hover{
+    color: #e01010;
+    cursor: pointer;
+}
+.recommend .recommend-body ul li.recommend-item .more {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #6d7680;
+}
+
+.recommend .recommend-body ul li.recommend-item .more:hover,
+.recommend .recommend-body ul li.recommend-item .more-items:hover{
+  color: white;
+  display: block;
+}
+
+.recommend .recommend-body ul li.recommend-item .more:hover + .more-items{
+    display: block;
+}
+
+.recommend .recommend-body ul li.recommend-item .more-items {
+    position: absolute;
+    width: 120px;
+    top: 9px;
+    right: 25px;
+    background-color: rgba(43, 51, 59, 0.88);
+    border-radius: 5px;
+    display: none;
+    
+}
+
+.recommend .recommend-body ul li.recommend-item .more-item {
+    padding: 15px 10px ;  
+}
+
+.recommend .recommend-body ul li.recommend-item .more-items a{
+  color: rgba(255, 255, 255, .6);
+}
+
+.recommend .recommend-body ul li.recommend-item .more-items :hover{
+  background-color: rgba(43, 51, 59, 1);
+}
+
+.recommend .recommend-body ul li.recommend-item .recommed-item-detail {
+    padding: 8px 0;
+}
+
+.recommend .recommend-body ul li.recommend-item .recommed-item-detail .course-name {
+    padding: 4px 0;
+    font-size: 15px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.recommend .recommend-body ul li.recommend-item .recommed-item-detail .course-detail {
+    height: 25px;
+    line-height: 25px;
+    padding: 8px 5px 8px 0;
+}
+
+.recommend .recommend-body ul li.recommend-item .recommed-item-detail .course-detail .number {
+    padding: 0 5px;
+    color: #c7c7c7;
+    font-size: 11px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
