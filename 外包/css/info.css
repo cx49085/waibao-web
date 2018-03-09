@@ -1,0 +1,134 @@
+body{
+	background: #eee;
+}
+.main .user-information{
+	height: 500px;
+}
+
+
+.main .user-information .headImgDiv{
+	height: 100%;
+	width: 360px;
+	padding: 25px 90px;
+	background: #fff;
+	position: relative;
+}
+
+.main .user-information .headImgDiv .headImgDiv-body{
+	padding: 10px;
+	height: 100%;
+	border-bottom: 1px dotted #8eb5d6;
+}
+.main .user-information .headImgDiv .headImgDiv-body-imgDiv{
+	padding: 5px;
+	border: 1px solid #cacaca;
+	border-radius: 6px;
+	box-shadow: 0 4px 8px 0 rgba(7, 17, 27, .1);
+}
+.main .user-information .headImgDiv .headImgDiv-body img{
+	width: 150px;
+	height: 150px;
+	border-radius: 6px;
+
+}
+
+.main .user-information .headImgDiv .headImgDiv-body .headImgDiv-body-qianming{
+	padding: 0 2px;
+}
+.main .user-information .headImgDiv .headImgDiv-body .headImgDiv-body-qianming h6{
+color: #c3c3c3;
+}
+
+
+.main .user-information .baseInfoDiv{
+	margin-left: 5px;
+	width: 805px;
+	height: 500px;
+	background-color: #fff;
+	padding: 25px 50px;
+
+}
+
+.main .user-information .baseInfoDiv .baseInfoDiv-body{
+	height: 100%;
+	padding: 10px 0 0 0;
+}
+
+
+
+.main .user-information .baseInfoDiv .baseInfoDiv-body ul li{
+	height: 90px;
+}
+
+.main .user-information .baseInfoDiv .baseInfoDiv-body ul li>div{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #e6e6e6;
+    font-size: 20px;
+}
+
+.main .user-information .baseInfoDiv .baseInfoDiv-body ul li>div .info{
+	margin-left: 10px;
+	padding-left: 25px;
+	border-left: 0.5px solid #e0e0e0
+}
+
+
+.main .recoding-courses{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #fff;
+	padding: 20px 30px ;
+	min-height: 300px;
+}
+
+.main .recoding-courses .recoding-courses-body{
+	padding: 20px 30px;
+}
+
+.main .recoding-courses .recoding-courses-body ul.courses li>div{
+	padding: 20px 30px;
+	border-bottom: 1px solid #e6e6e6;
+	height: 170px;
+}
+
+.main .recoding-courses .recoding-courses-body ul.courses li>div img{
+	width: 200px;
+	height: 120px;
+	border-radius: 5px;
+}
+
+.main .recoding-courses .recoding-courses-body ul.courses li>div .course-details{
+	padding: 0 30px;
+	width: 780px;
+}
+
+.main .recoding-courses .recoding-courses-body ul.courses li>div .course-details .course-details-name{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.main .recoding-courses .recoding-courses-body ul.courses li>div .course-details .course-details-content{
+	margin-top: 20px;
+	font-size: 11px;
+	color: gray;
+}
+
+.main .recoding-courses .recoding-courses-body ul.courses li>div .course-details .course-details-content div{
+	padding: 2px 0;
+	position: relative;
+}
+.main .recoding-courses .recoding-courses-body ul.courses li>div .course-details .course-details-content div span{
+	padding-right: 30px;
+}
+.main .recoding-courses .recoding-courses-body ul.courses li>div .course-details .course-details-content div a{
+	color: red;
+	font-size: 14px;
+	font-weight: 600;
+}
+.main .recoding-courses .recoding-courses-body ul.courses li>div .course-details .course-details-content div button{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
