@@ -1,5 +1,5 @@
-body{
-  background-color: 
+body {
+    background-color:
 }
 
 .container,
@@ -13,12 +13,34 @@ a {
 
 a:hover {
     text-decoration: none;
-     color: #e01010;
+    color: #e01010;
+}
+
+.bootstrap-select .dropdown-toggle:focus {
+    outline: none !important;
+}
+
+
+/*去除选项的outline*/
+
+a:focus {
+    outline: none !important;
+    text-decoration: none;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+    outline: 0;
 }
 
 ul {
     margin: 0;
 }
+
 
 
 
@@ -31,12 +53,14 @@ ul {
 
 
 
+
 /*导航栏的图片超链接logo*/
 
 .navbar .navbar-header .navbar-brand {
     padding: 5px;
     margin-right: 50px;
 }
+
 
 
 
@@ -56,6 +80,7 @@ ul {
 
 
 
+
 /*导航条种的表单*/
 
 #navbar form {
@@ -68,6 +93,7 @@ ul {
     -moz-transition: background-color .3s;
     transition: background-color .3s;
 }
+
 
 
 
@@ -85,6 +111,7 @@ ul.nav-log-reg {
 
 
 
+
 /*轮播图下面的小圆圈*/
 
 .carousel-indicators {
@@ -92,6 +119,7 @@ ul.nav-log-reg {
     right: 50px;
     width: auto;
 }
+
 
 
 
@@ -123,10 +151,11 @@ ul.nav-log-reg {
     box-shadow: 0 8px 16px 0 rgba(7, 17, 27, .1);
 }
 
-.recommend .recommend-body ul li.recommend-item .recommed-item-detail .course-name :hover{
+.recommend .recommend-body ul li.recommend-item .recommed-item-detail .course-name :hover {
     color: #e01010;
     cursor: pointer;
 }
+
 .recommend .recommend-body ul li.recommend-item .more {
     position: absolute;
     top: 10px;
@@ -135,12 +164,12 @@ ul.nav-log-reg {
 }
 
 .recommend .recommend-body ul li.recommend-item .more:hover,
-.recommend .recommend-body ul li.recommend-item .more-items:hover{
-  color: white;
-  display: block;
+.recommend .recommend-body ul li.recommend-item .more-items:hover {
+    color: white;
+    display: block;
 }
 
-.recommend .recommend-body ul li.recommend-item .more:hover + .more-items{
+.recommend .recommend-body ul li.recommend-item .more:hover+.more-items {
     display: block;
 }
 
@@ -152,19 +181,18 @@ ul.nav-log-reg {
     background-color: rgba(43, 51, 59, 0.88);
     border-radius: 5px;
     display: none;
-    
 }
 
 .recommend .recommend-body ul li.recommend-item .more-item {
-    padding: 15px 10px ;  
+    padding: 15px 10px;
 }
 
-.recommend .recommend-body ul li.recommend-item .more-items a{
-  color: rgba(255, 255, 255, .6);
+.recommend .recommend-body ul li.recommend-item .more-items a {
+    color: rgba(255, 255, 255, .6);
 }
 
-.recommend .recommend-body ul li.recommend-item .more-items :hover{
-  background-color: rgba(43, 51, 59, 1);
+.recommend .recommend-body ul li.recommend-item .more-items :hover {
+    background-color: rgba(43, 51, 59, 1);
 }
 
 .recommend .recommend-body ul li.recommend-item .recommed-item-detail {

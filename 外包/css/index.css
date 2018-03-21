@@ -208,3 +208,25 @@
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
 }
+
+
+/*登录注册*/
+#log-reg .form-horizontal .form-group {
+    margin-right: 0; 
+    margin-left: -35px;
+}
+
+.footer-reg,.footer-log{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #c1525269;
+    margin-right: 10px;
+    font-size: 12px;
+    color: gray;
+    cursor: pointer;
+}
+
+.footer-reg:hover,.footer-log:hover{
+    text-decoration: underline
+}
+
+#log-reg .form-control{    height: 45px;}

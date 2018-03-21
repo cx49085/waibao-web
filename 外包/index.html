@@ -16,7 +16,7 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 
-<body>
+<body ng-app="index">
     <!-- 导航条 -->
     <nav class="navbar navbar-fixed-top" id="navbar">
         <div class="container">
@@ -38,7 +38,11 @@
                     <button type="submit" class="btn btn-default">提交</button>
                 </form>
                 <ul class="nav navbar-nav nav-log-reg">
-                    <li><span><a href="#">登录</a>/<a href="#">注册</a></span></li>
+                    <li><span><a href="#" data-toggle="modal" data-target="#log-reg">登录&nbsp; / &nbsp;注册</a></span></li>
+                </ul>
+                <ul class="nav navbar-nav nav-log-reg">
+                    <li><span>cx49085 <span class="caret"></span></span>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -1395,7 +1399,6 @@
                     <div id="fh5co-board" data-columns>
                         <div class="item">
                             <div class="animate-box">
-                                
                             </div>
                             <div class="fh5co-desc">
                                 <span class="glyphicon glyphicon-tag text-success"></span><span class="text-success" style="padding-left: 10px">笔记</span>
@@ -1408,7 +1411,6 @@
                         </div>
                         <div class="item">
                             <div class="animate-box">
-                                
                             </div>
                             <div class="fh5co-desc">
                                 <span class="glyphicon glyphicon-comment text-info"></span><span class="text-info" style="padding-left: 10px">讨论</span>
@@ -1420,27 +1422,25 @@
                         </div>
                         <div class="item">
                             <div class="animate-box">
-                                
                             </div>
                             <div class="fh5co-desc">
                                 <div style="padding: 10px 0;font-weight: 600;color: rgba(0,180,60,.8);line-height: 24px;width: 224px;transition: all .3s;"> 运维进化篇：成为Python DevOps工程师有哪些必备条件？</div>
                                 <div style="    font-weight: 400;font-size: 12px;color: #4D555D;line-height: 24px;margin-top: 12px;">
-                                    当越来越多的人想要成为牛x的运维开发，但缺乏掌握全面的技术与实战能力时，怎么办呢？如果有一天领导要你去负责一个<hr>运维项目，你知道你还欠缺些什么吗？如果一个运维没有扎实的开发基础，如何更好的实现一套系统化平台？参与本话题，让大牛老师替你解答！
-                                    <br>
-                                    当越来越多的人想要成为牛x的运维开发，但缺乏掌握全面的技术与实战能力时，怎么办呢？如果有一天领导要你去负责一个运维项目，你知道你还欠缺些什么吗？如果一个运维没有扎实的开发基础，如何更好的实现一套系统化平台？参与本话题，让大牛老师替你解答！
+                                    当越来越多的人想要成为牛x的运维开发，但缺乏掌握全面的技术与实战能力时，怎么办呢？如果有一天领导要你去负责一个
+                                    <hr>运维项目，你知道你还欠缺些什么吗？如果一个运维没有扎实的开发基础，如何更好的实现一套系统化平台？参与本话题，让大牛老师替你解答！
+                                    <br> 当越来越多的人想要成为牛x的运维开发，但缺乏掌握全面的技术与实战能力时，怎么办呢？如果有一天领导要你去负责一个运维项目，你知道你还欠缺些什么吗？如果一个运维没有扎实的开发基础，如何更好的实现一套系统化平台？参与本话题，让大牛老师替你解答！
                                 </div>
                             </div>
                         </div>
                         <div class="item">
                             <div class="animate-box">
-                                
                             </div>
                             <div class="fh5co-desc">
                                 <div style="padding: 10px 0;font-weight: 600;color: rgba(0,180,60,.8);line-height: 24px;width: 224px;transition: all .3s;"> 运维进化篇：成为Python DevOps工程师有哪些必备条件？</div>
                                 <div style="    font-weight: 400;font-size: 12px;color: #4D555D;line-height: 24px;margin-top: 12px;">
-                                    当越来越多的人想要成为牛x的运维开发，但缺乏掌握全面的技术与实战能力时，怎么办呢？如果有一天领导要你去负责一个运<br>维项目，你知道你还欠缺些什么吗？如果一个运维没有扎实的开发基础，如何更好的实现一套系统化平台？参与本话题，让大牛老师替你解答！
+                                    当越来越多的人想要成为牛x的运维开发，但缺乏掌握全面的技术与实战能力时，怎么办呢？如果有一天领导要你去负责一个运
+                                    <br>维项目，你知道你还欠缺些什么吗？如果一个运维没有扎实的开发基础，如何更好的实现一套系统化平台？参与本话题，让大牛老师替你解答！
                                 </div>
-
                                 <div style="font-weight: 200;font-size: 12px;color: #4D555D;line-height: 24px;padding: 5px 0">
                                     <div class="pull-left text-muted">浏览量:<span>101</span></div>
                                     <div class="pull-right text-info">阅读全文</div>
@@ -1449,26 +1449,24 @@
                         </div>
                         <div class="item">
                             <div class="animate-box">
-                                
                             </div>
                             <div class="fh5co-desc">
                                 <span class="glyphicon glyphicon-grain text-danger"></span><span class="text-danger" style="padding-left: 10px">手机文章</span>
                                 <div class="text-danger" style="padding: 10px 0;font-weight: 600;line-height: 24px;width: 224px;transition: all .3s;"> 运维进化篇：成为Python DevOps工程师有哪些必备条件？</div>
                                 <div style="    font-weight: 400;font-size: 12px;color: #4D555D;line-height: 24px;margin-top: 12px;">
-                                    当越来越多的人想要成为牛x的运维开发，但缺乏掌握全面的技术与实战能力时，怎么办呢？如果有一天领导要你去负责一个运<br>维项目，你知道你还欠缺些什么吗？如果一个运维没有扎实的开发基础，如何更好的实现一套系统化平台？参与本话题，让大牛老师替你解答！目，你知道你还欠缺些什么吗？如果一个运维没有扎实的开发基础，如何更好的实现一套系统化平台？参与本话题，让大牛老师替
+                                    当越来越多的人想要成为牛x的运维开发，但缺乏掌握全面的技术与实战能力时，怎么办呢？如果有一天领导要你去负责一个运
+                                    <br>维项目，你知道你还欠缺些什么吗？如果一个运维没有扎实的开发基础，如何更好的实现一套系统化平台？参与本话题，让大牛老师替你解答！目，你知道你还欠缺些什么吗？如果一个运维没有扎实的开发基础，如何更好的实现一套系统化平台？参与本话题，让大牛老师替
                                 </div>
                             </div>
                         </div>
                         <div class="item">
                             <div class="animate-box">
-                                
                             </div>
                             <div class="fh5co-desc">
                                 <div style="padding: 10px 0;font-weight: 600;color: rgba(0,180,60,.8);line-height: 24px;width: 224px;transition: all .3s;"> 运维进化篇：成为Python DevOps工程师有哪些必备条件？</div>
                                 <div style="    font-weight: 400;font-size: 12px;color: #4D555D;line-height: 24px;margin-top: 12px;">
                                     当越来越多的人想要成为牛x的运维开发，但缺乏掌握全面的技术与实战能力时，怎么办呢？如果有一天领导要你去负责一个运维项目，你知道你还欠缺些什么吗？如果一个运维没有扎实的开发基础，如何更好的实现一套系统化平台？参与本话题，让大牛老师替你解答！
                                 </div>
-
                                 <div style="font-weight: 200;font-size: 12px;color: #4D555D;line-height: 24px;padding: 5px 0">
                                     <div class="pull-left text-muted">浏览量:<span>101</span></div>
                                     <div class="pull-right text-info">阅读全文</div>
@@ -1477,12 +1475,12 @@
                         </div>
                         <div class="item">
                             <div class="animate-box">
-                                
                             </div>
                             <div class="fh5co-desc">
                                 <div style="padding: 10px 0;font-weight: 600;color: rgba(0,180,60,.8);line-height: 24px;width: 224px;transition: all .3s;"> 运维进化篇：成为Python DevOps工程师有哪些必备条件？</div>
                                 <div style="    font-weight: 400;font-size: 12px;color: #4D555D;line-height: 24px;margin-top: 12px;">
-                                    当越来越多的人想要成为牛x的运维开发，但缺乏掌握全面的技术与实战能力时，怎么办呢？如果有一天领导要你去负责一个运维项目，你<hr>知道你还欠缺些什么吗？如果一个运维没有扎实的开发基础，如何更好的实现一套系统化平台？参与本话题，让大牛老师替你解答！
+                                    当越来越多的人想要成为牛x的运维开发，但缺乏掌握全面的技术与实战能力时，怎么办呢？如果有一天领导要你去负责一个运维项目，你
+                                    <hr>知道你还欠缺些什么吗？如果一个运维没有扎实的开发基础，如何更好的实现一套系统化平台？参与本话题，让大牛老师替你解答！
                                 </div>
                             </div>
                         </div>
@@ -1491,7 +1489,131 @@
             </div>
         </div>
     </div>
+    <!-- 登录注册 -->
+    <div class="modal fade" id="log-reg" tabindex="-1" role="dialog" aria-hidden="true" ng-controller="log_reg">
+        <div class="modal-dialog">
+            <div class="modal-content logDiv">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal">×</a>
+                    <h4>登录</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="loginDiv">
+                        <form class="form-horizontal" role="form" name="loginForm" novalidate>
+                            <!-- 提示错误 -->
+                            <div style="color:red" ng-show="loginForm.phone.$dirty && loginForm.phone.$invalid">
+                                <span ng-show="loginForm.phone.$error.required">请输入手机号</span>
+                                <span ng-show="!loginForm.phone.$error.required && loginForm.phone.$dirty && loginForm.phone.$invalid">
+                                手机号格式不正确！</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">手机</label>
+                                
+                                <div class="col-sm-10">
+                                    <!-- 手机号码 -->
+                                    <input type="text" class="form-control"  placeholder="请输入手机号码" name="phone" ng-model="phone1" ng-pattern="/(^$)|^(((\+86)|(86))?1[34578]\d{9})$/" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword" class="col-sm-2 control-label">密码</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" name="password" placeholder="请输入密码" ng-model="password1">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <span class="footer-reg">还没账号？<a href="#" class="text-danger">注册 </a></span>
+                    <!-- class="btn" data-dismiss="modal" -->
+                    <input type="button" class="btn btn-success " value="点我登录" ng-disabled="loginForm.$invalid" ng-click="login()">
+                </div>
+            </div>
+
+
+
+            <div class="modal-content hidden regDiv" >
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal">×</a>
+                    <h4>注册</h4>
+                </div>
+                <div class="modal-body">
+                    <form role="form" class="form" name="regForm">
+                        <div class="form-group">
+                            <label class="control-label"><span class="glyphicon glyphicon-user"></span> 昵称</label>
+                            <input type="text" class="form-control" ng-model="nickname" placeholder="请输入昵称" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label"><span class="glyphicon glyphicon-lock"></span> 密码</label>
+                            <input type="password" class="form-control" ng-model="password2" placeholder="请输入密码" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label"><span class="glyphicon glyphicon-chevron-up"></span> 年龄</label>
+                            <input type="number" class="form-control" ng-model="age" placeholder="请输入年龄" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label"><span class="glyphicon glyphicon-heart"></span> 性别</label>
+                            <select class="form-control" ng-model="gender">
+                                <option value="男">男</option>
+                                <option value="女">女</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label"><span class="glyphicon glyphicon-home"></span> 公司</label>
+                            <select class="form-control" ng-model="company">
+                                <option value="company1" checked>1</option>
+                                <option value="company2">2</option>
+                                <option value="company3">3</option>
+                                <option value="company4">4</option>
+                                <option value="company5">5</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label"><span class="  glyphicon glyphicon-bookmark"></span> 公司工号</label>
+                            <input type="text" class="form-control"  placeholder="请输入公司工号" ng-model="work_id" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label"><span class="glyphicon glyphicon-tags"></span> 工作领域</label>
+                            <select class="form-control" ng-model="work_type">
+                                <option value="word_type1" checked>1</option>
+                                <option value="word_type2">2</option>
+                                <option value="word_type3">3</option>
+                                <option value="word_type4">4</option>
+                                <option value="word_type5">5</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label"><span class="glyphicon glyphicon-phone"></span> 手机</label>
+                            <input type="text" class="form-control"  placeholder="请输入手机号码" name="phone" ng-model="phone2" ng-pattern="/(^$)|^(((\+86)|(86))?1[34578]\d{9})$/" required>
+                        </div>
+                        <div style="color:red" ng-show="regForm.phone.$dirty && regForm.phone.$invalid">
+                            <span ng-show="regForm.phone.$error.required">请输入手机号</span>
+                            <span ng-show="!regForm.phone.$error.required && regForm.phone.$dirty && regForm.phone.$invalid">
+                            手机号格式不正确！</span>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" placeholder="请输入手机验证码" ng-model="yzm" required>
+                            </div>
+                            <div class="col-sm-3">
+                                <button class="btn btn-success pull-right" style="height: 45px;" ng-click="sendYzm()" ng-disabled="regForm.phone.$pristine || regForm.phone.$invalid || btn_clicked">{{times}}</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <span class="footer-log">已经有账号？<a href="#" class="text-danger">登录 </a></span>
+                    <input type="button" class="btn btn-success " value="点我注册" ng-disabled="regForm.$invalid" ng-click="regsiter()">
+                    <!-- class="btn" data-dismiss="modal" -->
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal -->
+    </div>
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/star-rating.min.js"></script>
     <script type="text/javascript">
@@ -1536,9 +1658,41 @@
         step: 1,
         showClear: false,
     });
+
+    //控制登录和注册的显示
+    $(".modal-footer span").on('click', function() {
+        if ($(this).hasClass("footer-reg")) {
+            $(".logDiv").addClass("hidden");
+            $(".regDiv").removeClass("hidden");
+            return;
+        }
+        $(".regDiv").addClass("hidden");
+        $(".logDiv").removeClass("hidden");
+    })
+
+
+
+    
+
+
+    // function al() {
+    //     alert(1)
+    // }
+    // var time = 60;
+
+    // function daojishi() {
+    //     showDaojishi(time);
+    //     time--;
+    // }
+
+    // function showDaojishi(t) {
+    //     $(".time")
+    // }
+    // setInterval("sendYzm()", "1000");
     </script>
     <!-- 瀑布流 -->
-    <script src="js/waterfall/salvattore.min.js"></script>
+    <script type="text/javascript" src="js/waterfall/salvattore.min.js"></script>
+    <script type="text/javascript" src="js/angularjs/index_ang.js"></script>
 </body>
 
 </html>
